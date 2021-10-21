@@ -17,7 +17,7 @@ export const Section = styled.section`
   }
 
   @media (max-width: 768px) {
-    height: auto;
+    height: 100vh;
     padding: 20px;
     flex-direction: column;
 
