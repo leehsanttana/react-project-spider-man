@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   position: absolute;
-  width: auto;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   z-index: 20;
   background: rgba(0, 0, 0, 0.5);
   display: flex;
@@ -11,6 +11,8 @@ export const Section = styled.section`
   align-items: center;
 
   @media (max-width: 768px) {
+    width: auto;
+    height: 90%;
     padding: 20px;
   }
 `;

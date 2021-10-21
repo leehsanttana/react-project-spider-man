@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
+  width: 100%;
   height: 100vh;
   background: linear-gradient(45deg, rgba(5, 5, 21), rgba(2, 2, 9));
   display: flex;
@@ -17,7 +18,8 @@ export const Section = styled.section`
   }
 
   @media (max-width: 768px) {
-    height: 100vh;
+    width: auto;
+    height: 90%;
     padding: 20px;
     flex-direction: column;
 
