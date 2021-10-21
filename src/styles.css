@@ -1,0 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
